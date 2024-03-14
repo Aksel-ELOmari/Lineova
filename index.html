@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- pause and play video icons :-->
+   <!-- <i class="fa-solid fa-pause"></i>-->
+   <!-- <i class="fa-solid fa-play"></i>-->
+   <meta charset="UTF-8">
+   <!-- <meta http-equiv="refresh" content="3"> -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Image filters filter Eiter Editor Videos Colors ColorEditer VideoEditor img Wallpaper">
+   <!-- the link to font-awesome icons-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+   <title>FodeT</title>
+</head>
+<body>
+   <!-- <nav-bar-item></nav-bar-item> -->
+
+   <div class="cotainer-body">
+      <div class="min-image">
+         <img src="./source/medium-shot-young-people-recording-podcast.jpg" class="image" id="the-main-img" alt="">
+         <input type="file" name="fileName" id="Foto-file" >
+         <label class="Foto-Label" for="Foto-file">Upload</label>
+
+         <!-- <div class="image col-lg-8 col-md-6 col-sm-12 justify-content-center">
+            
+            <img src="" class="image col-12" id="foto-img" style="display: none;">
+            <input type="file" name="fileName" style="display: none;" id="Foto-file" >
+            <label class="Foto-Label" for="Foto-file">Upload</label>
+         </div> -->
+
+      </div>
+      <div class="filters">
+         <label  for="saturate"> saturate</label>
+         <input type="range" name="" id="saturate">
+         <label  for="blur" >Blur</label>
+         <input type="range" name="" id="blur">
+         <label  for="brightness" >brightness</label>
+         <input type="range" name="" id="brightness">
+         <label  for="hue-rotate" >hue-rotate</label>
+         <input type="range" name="" id="hue-rotate">
+         <label  for="contrast" >contrast</label>
+         <input type="range" name="" id="contrast">
+         <label  for="grayscale" >grayscale</label>
+         <input type="range" name="" id="grayscale">
+         <label  for="invert" >invert</label>
+         <input type="range" name="" id="invert">
+         <label  for="sepia" >sepia</label>
+         <input type="range" name="" id="sepia">
+         <label  for="opacity" >opacity</label>
+         <input type="range" name="" id="opacity">
+         <!-- ---------- Reset  && Download -------- -->
+                     <div class="last-btns filter-btns">
+            <input type="reset" value="Reset">
+            <a rel="noopener noreferrer" href="#" id="downloadLink">Download</a>
+         </div>
+      </div>
+   </div>
+   <script src="./index.js"></script>
+</body>
+
+</html>
